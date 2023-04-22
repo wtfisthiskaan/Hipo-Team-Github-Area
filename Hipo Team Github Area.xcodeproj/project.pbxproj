@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8B5A0D0429F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0329F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift */; };
-		8B5A0D0629F30CFA00A8324F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0529F30CFA00A8324F /* ContentView.swift */; };
 		8B5A0D0829F30CFC00A8324F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0729F30CFC00A8324F /* Assets.xcassets */; };
 		8B5A0D0B29F30CFC00A8324F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0A29F30CFC00A8324F /* Preview Assets.xcassets */; };
 		8B5A0D0D29F30CFC00A8324F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0C29F30CFC00A8324F /* Persistence.swift */; };
 		8B5A0D1029F30CFC00A8324F /* Hipo_Team_Github_Area.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D0E29F30CFC00A8324F /* Hipo_Team_Github_Area.xcdatamodeld */; };
+		8B5A0D1729F3114200A8324F /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D1629F3114200A8324F /* Member.swift */; };
+		8B5A0D1929F3116800A8324F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D1829F3116800A8324F /* Company.swift */; };
+		8B5A0D1B29F3120F00A8324F /* MemberJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D1A29F3120F00A8324F /* MemberJSONModel.swift */; };
+		8B5A0D1D29F3124500A8324F /* MemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D1C29F3124500A8324F /* MemberListView.swift */; };
+		8B5A0D1F29F3126C00A8324F /* MemberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D1E29F3126C00A8324F /* MemberDetailView.swift */; };
+		8B5A0D2129F3142C00A8324F /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2029F3142C00A8324F /* Sorting.swift */; };
+		8B5A0D2329F3145500A8324F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2229F3145500A8324F /* data.json */; };
+		8B5A0D2529F3158700A8324F /* AddMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2429F3158700A8324F /* AddMemberView.swift */; };
+		8B5A0D2729F3163900A8324F /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2629F3163900A8324F /* GithubAPI.swift */; };
+		8B5A0D2929F319B800A8324F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2829F319B800A8324F /* Repository.swift */; };
+		8B5A0D2E29F4333E00A8324F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A0D2D29F4333E00A8324F /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B5A0D0029F30CFA00A8324F /* Hipo Team Github Area.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hipo Team Github Area.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5A0D0329F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hipo_Team_Github_AreaApp.swift; sourceTree = "<group>"; };
-		8B5A0D0529F30CFA00A8324F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B5A0D0729F30CFC00A8324F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5A0D0A29F30CFC00A8324F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B5A0D0C29F30CFC00A8324F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8B5A0D0F29F30CFC00A8324F /* Hipo_Team_Github_Area.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hipo_Team_Github_Area.xcdatamodel; sourceTree = "<group>"; };
+		8B5A0D1629F3114200A8324F /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		8B5A0D1829F3116800A8324F /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8B5A0D1A29F3120F00A8324F /* MemberJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberJSONModel.swift; sourceTree = "<group>"; };
+		8B5A0D1C29F3124500A8324F /* MemberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListView.swift; sourceTree = "<group>"; };
+		8B5A0D1E29F3126C00A8324F /* MemberDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailView.swift; sourceTree = "<group>"; };
+		8B5A0D2029F3142C00A8324F /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		8B5A0D2229F3145500A8324F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		8B5A0D2429F3158700A8324F /* AddMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberView.swift; sourceTree = "<group>"; };
+		8B5A0D2629F3163900A8324F /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		8B5A0D2829F319B800A8324F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		8B5A0D2D29F4333E00A8324F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +75,14 @@
 		8B5A0D0229F30CFA00A8324F /* Hipo Team Github Area */ = {
 			isa = PBXGroup;
 			children = (
-				8B5A0D0329F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift */,
-				8B5A0D0529F30CFA00A8324F /* ContentView.swift */,
+				8B5A0D2C29F31B8400A8324F /* Controller */,
+				8B5A0D2B29F31B7C00A8324F /* View */,
+				8B5A0D2A29F31B7000A8324F /* Model */,
+				8B5A0D2229F3145500A8324F /* data.json */,
 				8B5A0D0729F30CFC00A8324F /* Assets.xcassets */,
 				8B5A0D0C29F30CFC00A8324F /* Persistence.swift */,
 				8B5A0D0E29F30CFC00A8324F /* Hipo_Team_Github_Area.xcdatamodeld */,
+				8B5A0D0329F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift */,
 				8B5A0D0929F30CFC00A8324F /* Preview Content */,
 			);
 			path = "Hipo Team Github Area";
@@ -71,6 +94,37 @@
 				8B5A0D0A29F30CFC00A8324F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B5A0D2A29F31B7000A8324F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A0D2D29F4333E00A8324F /* UserInfo.swift */,
+				8B5A0D1629F3114200A8324F /* Member.swift */,
+				8B5A0D1829F3116800A8324F /* Company.swift */,
+				8B5A0D2829F319B800A8324F /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B5A0D2B29F31B7C00A8324F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A0D1C29F3124500A8324F /* MemberListView.swift */,
+				8B5A0D2429F3158700A8324F /* AddMemberView.swift */,
+				8B5A0D1E29F3126C00A8324F /* MemberDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B5A0D2C29F31B8400A8324F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A0D1A29F3120F00A8324F /* MemberJSONModel.swift */,
+				8B5A0D2629F3163900A8324F /* GithubAPI.swift */,
+				8B5A0D2029F3142C00A8324F /* Sorting.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5A0D0B29F30CFC00A8324F /* Preview Assets.xcassets in Resources */,
+				8B5A0D2329F3145500A8324F /* data.json in Resources */,
 				8B5A0D0829F30CFC00A8324F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +199,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5A0D0D29F30CFC00A8324F /* Persistence.swift in Sources */,
-				8B5A0D0629F30CFA00A8324F /* ContentView.swift in Sources */,
+				8B5A0D1B29F3120F00A8324F /* MemberJSONModel.swift in Sources */,
+				8B5A0D2929F319B800A8324F /* Repository.swift in Sources */,
 				8B5A0D1029F30CFC00A8324F /* Hipo_Team_Github_Area.xcdatamodeld in Sources */,
+				8B5A0D2129F3142C00A8324F /* Sorting.swift in Sources */,
+				8B5A0D2529F3158700A8324F /* AddMemberView.swift in Sources */,
 				8B5A0D0429F30CFA00A8324F /* Hipo_Team_Github_AreaApp.swift in Sources */,
+				8B5A0D2729F3163900A8324F /* GithubAPI.swift in Sources */,
+				8B5A0D2E29F4333E00A8324F /* UserInfo.swift in Sources */,
+				8B5A0D1729F3114200A8324F /* Member.swift in Sources */,
+				8B5A0D1F29F3126C00A8324F /* MemberDetailView.swift in Sources */,
+				8B5A0D1D29F3124500A8324F /* MemberListView.swift in Sources */,
+				8B5A0D1929F3116800A8324F /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
